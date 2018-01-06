@@ -1,0 +1,6 @@
+framework module Pods_LQTools_Example {
+  umbrella header "Pods-LQTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
