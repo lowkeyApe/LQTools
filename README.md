@@ -7,10 +7,9 @@
 
 
 
-##工具列表
+## 工具列表
 
-类名：LQCalculateStrHeight  /**计算字符串的高度  /**计算字符串的宽度
-
+  类名：LQCalculateStrHeight  用处:1.计算字符串的高度  2.计算字符串的宽度
 
 ## Example
 
