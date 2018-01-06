@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/LQTools.svg?style=flat)](http://cocoapods.org/pods/LQTools)
 [![Platform](https://img.shields.io/cocoapods/p/LQTools.svg?style=flat)](http://cocoapods.org/pods/LQTools)
 
+
+
+##工具列表
+
+类名：LQCalculateStrHeight  /**计算字符串的高度  /**计算字符串的宽度
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +29,7 @@ pod 'LQTools'
 
 ## Author
 
-563096676@qq.com, 563096676@qq.com
+563096676@qq.com
 
 ## License
 
