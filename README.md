@@ -9,8 +9,15 @@
 
 ## 工具列表
 
-  类名：LQCalculateStrHeight  用处:1.计算字符串的高度  2.计算字符串的宽度
-
+  (1)用处:计算字符串高度和宽度 类名：LQCalculateStrHeight
+  (2)用处: 类名：
+  (3)用处: 类名：
+  (4)用处: 类名：
+  (5)用处: 类名：
+  (6)用处: 类名：
+  (7)用处: 类名：
+  
+  
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
