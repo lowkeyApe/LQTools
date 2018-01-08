@@ -3,7 +3,9 @@ use_frameworks!
 target 'LQTools_Example' do
   pod 'LQTools', :path => '../'
   pod 'AFNetworking'
-  
+  pod 'MBProgressHUD'
+  pod 'SDWebImage'
+
   target 'LQTools_Tests' do
     inherit! :search_paths
 

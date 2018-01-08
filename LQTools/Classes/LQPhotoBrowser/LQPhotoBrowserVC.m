@@ -8,7 +8,7 @@
 
 #import "LQPhotoBrowserVC.h"
 #import "LQPhotoBrowserCell.h"
-#import <MBProgressHUD+Show.h>
+#import "MBProgressHUD+Show.h"
 #import "UIView+LQLowKeyFrame.h"
 
 @interface LQPhotoBrowserVC ()<UICollectionViewDataSource,UICollectionViewDelegate,UIScrollViewDelegate>

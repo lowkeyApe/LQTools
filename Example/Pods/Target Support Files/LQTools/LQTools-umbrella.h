@@ -12,6 +12,9 @@
 
 #import "LQCalculateStrHeight.h"
 #import "LQNetWorkTools.h"
+#import "LQPhotoBrowserCell.h"
+#import "LQPhotoBrowserVC.h"
+#import "UIView+LQLowKeyFrame.h"
 
 FOUNDATION_EXPORT double LQToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char LQToolsVersionString[];

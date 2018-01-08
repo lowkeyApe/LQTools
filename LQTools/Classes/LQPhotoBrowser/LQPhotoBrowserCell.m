@@ -7,7 +7,8 @@
 //
 
 #import "LQPhotoBrowserCell.h"
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
+
 #import "UIView+LQLowKeyFrame.h"
 @interface LQPhotoBrowserCell()<UIGestureRecognizerDelegate,UIScrollViewDelegate> {
     CGFloat _aspectRatio;
