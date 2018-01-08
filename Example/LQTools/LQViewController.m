@@ -8,15 +8,29 @@
 
 #import "LQViewController.h"
 #import <LQTools/LQCalculateStrHeight.h>
+#import <Messages/Messages.h>
+
 @interface LQViewController ()
 
+@property (nonatomic,copy) NSString *name;
 @end
 
 @implementation LQViewController
 
+-(NSString *)description{
+    
+    return [NSString stringWithFormat:@"name:%@",_name];
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    unsigned int count = 0;
+    
+    
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

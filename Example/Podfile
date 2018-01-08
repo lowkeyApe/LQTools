@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'LQTools_Example' do
   pod 'LQTools', :path => '../'
+  pod 'AFNetworking'
   
   target 'LQTools_Tests' do
     inherit! :search_paths
