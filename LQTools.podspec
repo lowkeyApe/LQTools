@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQTools'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A Networking of LQTools.'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AFNetworking'
+    s.dependency 'MBprogressHUD'
+    s.dependency 'SDWebImage'
+
+
 end
