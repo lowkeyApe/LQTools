@@ -1,6 +1,6 @@
 {
   "name": "LQTools",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A Networking of LQTools.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lowkeyApe/LQTools",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lowkeyApe/LQTools.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

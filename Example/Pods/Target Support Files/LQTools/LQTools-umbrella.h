@@ -11,7 +11,7 @@
 #endif
 
 #import "LQCalculateStrHeight.h"
-#import "YXLQNetWorkTools.h"
+#import "LQNetWorkTools.h"
 
 FOUNDATION_EXPORT double LQToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char LQToolsVersionString[];

@@ -32,7 +32,7 @@ typedef NS_ENUM(NSInteger,LQRESPONSE_Serializer) {
 };
 
 
-@interface YXLQNetWorkTools : NSObject
+@interface LQNetWorkTools : NSObject
 
 
 /**get post常规请求

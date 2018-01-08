@@ -6,9 +6,9 @@
 //  Copyright © 2017年 DCloud. All rights reserved.
 //
 
-#import "YXLQNetWorkTools.h"
+#import "LQNetWorkTools.h"
 
-@implementation YXLQNetWorkTools
+@implementation LQNetWorkTools
 +(void)requestURL:(NSString *)URL requestType:(LQREQUEST_TYPE)customType requestSerializerType:(LQREQUEST_SerializerType)requestSerializerType  responseSerializerType:(LQRESPONSE_Serializer)responseSerializerType requestParameter:(id)param successBlock:(void (^)(id respondData))successBlock failurBlock:(void (^)(NSError *error))failurBlock{
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];

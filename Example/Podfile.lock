@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - LQTools (0.1.0):
+  - LQTools (0.2.0):
     - AFNetworking
 
 DEPENDENCIES:
@@ -27,7 +27,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  LQTools: e66d100fe42fbc276d4ffebfe9f77daf0dabb597
+  LQTools: 3ed964f550de46e2858a2141b8f8d6d93aec02b8
 
 PODFILE CHECKSUM: b9d9da780d3d30e1fd0521f9f9721b62b20ecc19
 
