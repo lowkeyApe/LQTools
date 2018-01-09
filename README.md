@@ -9,10 +9,12 @@
 
 ## 工具列表
 ```
-  1.计算字符串高度和宽度       类名：LQCalculateStrHeight
+导入 #import "LQTools.h" 即可
+详细介绍：
+  1.计算字符串高度和宽度       类名：LQCalculateStrHeight
   2.封装AFNET网络请求工具     类名：LQNetWorkTools (请求网络数据get和post,下载,上传)
   3.图片浏览器（本地和网络混合）类名：LQPhotoBrowserVC
-  4.
+  4.设置颜色（十六进制和RBG值）分类：UIColor+LQSetColor
 ```
   
 ## Example
