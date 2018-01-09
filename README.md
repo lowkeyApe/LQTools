@@ -5,7 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/LQTools.svg?style=flat)](http://cocoapods.org/pods/LQTools)
 [![Platform](https://img.shields.io/cocoapods/p/LQTools.svg?style=flat)](http://cocoapods.org/pods/LQTools)
 
+## Installation
 
+LQTools is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+可以直接 cocapods 进行 安装
+```ruby
+pod 'LQTools'
+```
 
 ## 工具列表
 ```
@@ -23,14 +31,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
 
-LQTools is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'LQTools'
-```
 
 ## Author
 
