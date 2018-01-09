@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - LQTools (1.5.2):
+  - LQTools (1.5.4):
     - AFNetworking
     - MBProgressHUD
     - SDWebImage
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  LQTools: 66a64e59f7bd16d981cf639cff8c2f841cf3c802
+  LQTools: 2c8253be6e2e7ceaa7446d483f2be60d422ace22
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
 

@@ -1,6 +1,6 @@
 {
   "name": "LQTools",
-  "version": "1.5.2",
+  "version": "1.5.4",
   "summary": "Tools of lowkeyApe.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lowkeyApe/LQTools",
@@ -13,12 +13,16 @@
   },
   "source": {
     "git": "https://github.com/lowkeyApe/LQTools.git",
-    "tag": "1.5.2"
+    "tag": "1.5.4"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "LQTools/Classes/**/*",
+  "resources": [
+    "LQTools/Classes/LQPhotoBrowser/MBProgressHUD.bundle",
+    "LQTools/Assets/*.png"
+  ],
   "dependencies": {
     "AFNetworking": [
 
