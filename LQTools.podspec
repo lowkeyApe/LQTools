@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQTools'
-  s.version          = '1.1.0'
+  s.version          = '1.5.0'
   s.summary          = 'A Networking of LQTools.'
 
 # This description is used to generate tags and improve search results.
