@@ -33,8 +33,8 @@
         UIButton *_saveImageBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         _saveImageBtn.frame = CGRectMake(0, 0, 40, 40);
         _saveImageBtn.autoresizingMask = UIViewAutoresizingFlexibleHeight;
-        [_saveImageBtn setImage:[UIImage imageNamed:@"lqsavePicture"] forState:(UIControlStateNormal)];
-        [_saveImageBtn setImage:[UIImage imageNamed:@"lqsavePicture"] forState:UIControlStateHighlighted];
+        [_saveImageBtn setImage:[UIImage imageNamed:@"MBProgressHUD.bundle/lqsavePicture"] forState:(UIControlStateNormal)];
+        [_saveImageBtn setImage:[UIImage imageNamed:@"MBProgressHUD.bundle/lqsavePicture"] forState:UIControlStateHighlighted];
         [_saveImageBtn addTarget:self action:@selector(saveImage) forControlEvents:UIControlEventTouchUpInside];
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:_saveImageBtn];
     }else if (self.deleteNeeded){
