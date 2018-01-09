@@ -11,11 +11,13 @@
 #endif
 
 #import "LQCalculateStrHeight.h"
+#import "UIColor+LQSetColor.h"
 #import "LQNetWorkTools.h"
 #import "LQPhotoBrowserCell.h"
 #import "LQPhotoBrowserVC.h"
 #import "MBProgressHUD+Show.h"
 #import "UIView+LQLowKeyFrame.h"
+#import "LQTools.h"
 
 FOUNDATION_EXPORT double LQToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char LQToolsVersionString[];

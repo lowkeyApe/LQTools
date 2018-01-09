@@ -16,17 +16,22 @@
     
     // 显示一张图片(mode必须写在customView设置之前)
     hud.mode = MBProgressHUDModeCustomView;
+    
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    hud.bezelView.alpha = 0.8;
+    
     // 设置一张图片
     name = [NSString stringWithFormat:@"MBProgressHUD.bundle/%@", name];
     hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:name]];
     
-    hud.labelText = text;
-    
+    hud.label.text = text;
+    hud.label.textColor = [UIColor whiteColor];
     // 隐藏的时候从父控件中移除
     hud.removeFromSuperViewOnHide = YES;
     
     // 1秒后自动隐藏
-    [hud hide:YES afterDelay:1];
+    [hud hideAnimated:YES afterDelay:1];
 }
 
 + (void)showErrorWithText:(NSString *)text

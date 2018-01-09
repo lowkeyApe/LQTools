@@ -7,13 +7,17 @@
 //
 
 #import "LQAppDelegate.h"
-
+#import "LQViewController.h"
 @implementation LQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+    self.window  = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[LQViewController new]];
+    nav.navigationBar.translucent = YES;
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

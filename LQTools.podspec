@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQTools'
-  s.version          = '1.5.2'
+  s.version          = '1.5.3'
   s.summary          = 'Tools of lowkeyApe.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LQTools/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LQTools' => ['LQTools/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'LQTools'(MBProgressHUD.bundle) => ['LQTools/Assets/*.{png,xib,plist}']
+    }
+    s.resources = ['LQTools/Assets/*.{png,xib,plist}']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
