@@ -10,15 +10,11 @@
 ## 工具列表
 ```
 <<<<<<< HEAD
-  1.计算字符串高度和宽度 类名：LQCalculateStrHeight
-  2.封装AFNET网络请求工具  类名：LQNetWorkTools (请求网络数据get和post,下载,上传)
-  
-=======
   1.计算字符串高度和宽度       类名：LQCalculateStrHeight
   2.封装AFNET网络请求工具     类名：LQNetWorkTools (请求网络数据get和post,下载,上传)
   3.图片浏览器（本地和网络混合）类名：LQPhotoBrowserVC
   
->>>>>>> 4a709b1e4ea8b9458ea8ff82348219c50c56236e
+>>>>>>> 
  ```
   
 ## Example
