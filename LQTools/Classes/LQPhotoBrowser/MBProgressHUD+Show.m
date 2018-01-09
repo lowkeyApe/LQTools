@@ -8,6 +8,7 @@
 
 #import "MBProgressHUD+Show.h"
 
+
 @implementation MBProgressHUD (Show)
 + (void)showText:(NSString *)text name:(NSString *)name
 {

@@ -8,8 +8,9 @@
 
 #import "LQPhotoBrowserVC.h"
 #import "LQPhotoBrowserCell.h"
-#import "MBProgressHUD+Show.h"
 #import "UIView+LQLowKeyFrame.h"
+#import "MBProgressHUD+Show.h"
+
 
 @interface LQPhotoBrowserVC ()<UICollectionViewDataSource,UICollectionViewDelegate,UIScrollViewDelegate>
 @property(nonatomic,assign)BOOL isHideNaviBar;
