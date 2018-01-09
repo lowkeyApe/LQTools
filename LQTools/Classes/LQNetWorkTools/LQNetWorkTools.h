@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
-//#import "YXLQPracticeTextAPI.h"
 
 typedef NS_ENUM(NSInteger,postDataType) {
     postDataType_Image = 1,

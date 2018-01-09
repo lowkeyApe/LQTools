@@ -7,7 +7,7 @@
 //
 
 #import "LQViewController.h"
-#import <LQTools/LQCalculateStrHeight.h>
+#import "LQCalculateStrHeight.h"
 #import <Messages/Messages.h>
 
 @interface LQViewController ()

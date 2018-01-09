@@ -1,8 +1,7 @@
 //
 //  LQPhotoBrowserVC.m
-//  测试我的pods
 //
-//  Created by 谢双艰 on 2018/1/8.
+//  Created by Low-Key on 2018/1/8.
 //  Copyright © 2018年 lowkey. All rights reserved.
 //
 
