@@ -120,6 +120,8 @@
 		E3402BF335B00E037F7980015556F096 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B335025579B04D4FECF03436A37886 /* UIImage+MultiFormat.m */; };
 		E4714691A393A91C7665F180BCA5FB9C /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A36B13A267F4E561CBD6F2ACEBCD1D /* UIImage+ForceDecode.m */; };
 		E4A2752489FA73D29C2826C762202588 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B3C8A0702DA6EEDFB4B57D5966FEB9 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E841A729200468A000F2F76F /* UIColor+LQSetColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E841A7272004689F00F2F76F /* UIColor+LQSetColor.h */; };
+		E841A72A200468A000F2F76F /* UIColor+LQSetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E841A7282004689F00F2F76F /* UIColor+LQSetColor.m */; };
 		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 490D478C2F52EEBE75D203C2805261CD /* AFHTTPSessionManager.m */; };
 		F04235E105090859E5A135DE1E8F815C /* SDWebImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A2C51828C527BF4BC7D9E84E8AD4C0 /* SDWebImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D13170A3C0A163B17971A41AB05AD53B /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -319,6 +321,8 @@
 		E1FCAB3A7C132EE1E04CE4DB72BF8B97 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		E3B8AB1451DD94D6D77D45E36A6F8D96 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		E841A72020045F4D00F2F76F /* LQTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTools.h; sourceTree = "<group>"; };
+		E841A7272004689F00F2F76F /* UIColor+LQSetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LQSetColor.h"; sourceTree = "<group>"; };
+		E841A7282004689F00F2F76F /* UIColor+LQSetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LQSetColor.m"; sourceTree = "<group>"; };
 		E8C033C00FA17EF5AE152896908BA9E4 /* MBProgressHUD+Show.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Show.m"; sourceTree = "<group>"; };
 		E978BDFFBBB4C9200292AF18B623D134 /* MBProgressHUD+Show.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Show.h"; sourceTree = "<group>"; };
 		EBC304FDB2BEDB0BACEC3041F1CA6625 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -532,6 +536,7 @@
 		4911942BFB5ED253392E7097598E0952 /* .. */ = {
 			isa = PBXGroup;
 			children = (
+				E841A7262004689F00F2F76F /* LQCategory */,
 				090E18CC6FFE4AD793C1781E39BAB56D /* LQCalculateStrHeight */,
 				CBDCC8F5C2B3EA4A3CA0173EE6754CD7 /* LQNetWorkTools */,
 				CA9FE5DD2F6BFAB6557FA2947BD6F358 /* LQPhotoBrowser */,
@@ -757,6 +762,15 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		E841A7262004689F00F2F76F /* LQCategory */ = {
+			isa = PBXGroup;
+			children = (
+				E841A7272004689F00F2F76F /* UIColor+LQSetColor.h */,
+				E841A7282004689F00F2F76F /* UIColor+LQSetColor.m */,
+			);
+			path = LQCategory;
+			sourceTree = "<group>";
+		};
 		EAED0B77AE49AA0EA128A2D9EAFE9E5D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -800,6 +814,7 @@
 			files = (
 				C78DF4693DDB95656E8D33BB85576E99 /* LQCalculateStrHeight.h in Headers */,
 				CFCACDD2637121CAF2A1B511ACCE4BC7 /* LQNetWorkTools.h in Headers */,
+				E841A729200468A000F2F76F /* UIColor+LQSetColor.h in Headers */,
 				2850AE25AF067D5C1C6D93674F757BE1 /* LQPhotoBrowserCell.h in Headers */,
 				D796FF57DA452E3414FBA7CBB20BEE10 /* LQPhotoBrowserVC.h in Headers */,
 				228D902557698481E8733C6CD8BBFDDF /* LQTools-umbrella.h in Headers */,
@@ -1116,6 +1131,7 @@
 				2290B7C2FF3AF1AE5F2CCE830153A0E1 /* LQTools-dummy.m in Sources */,
 				9766995960C6989FD52420F9B1703D58 /* MBProgressHUD+Show.m in Sources */,
 				7E9F2596036566CDC1ED5ED9E5AB51CB /* UIView+LQLowKeyFrame.m in Sources */,
+				E841A72A200468A000F2F76F /* UIColor+LQSetColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

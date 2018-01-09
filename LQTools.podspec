@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQTools'
-  s.version          = '1.5.1'
-  s.summary          = 'A Networking of LQTools.'
+  s.version          = '1.5.2'
+  s.summary          = 'Tools of lowkeyApe.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -21,5 +21,9 @@
  * 图片浏览器（本地和网络混合）
  */
 #import "LQPhotoBrowserVC.h"
+/**
+ * 设置颜色 （Category）
+ */
+#import "UIColor+LQSetColor.h"
 
 #endif /* LQTools_h */
